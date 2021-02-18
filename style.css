@@ -1,0 +1,44 @@
+body {
+    color: white;
+}
+.gridContainer {
+    display: grid;
+    grid-template-columns: 32% 24.5% 12.5% 12.5% 4% 25.5%;
+    grid-template-rows: 1fr 2fr 2fr 5fr;
+} 
+.lightgreen {
+    background-color: rgb(31, 207, 99);
+    grid-area: 1/1/2/6;
+}
+.blue {
+    background-color: rgb(24, 93, 153);
+    grid-area: 1/6/2/7;
+}
+.lightred {
+    background-color: rgb(211, 78, 74);
+    grid-area: 2/1/4/2;
+}
+.orange {
+    background-color: rgb(224, 127, 37);
+    grid-area: 2/2/3/4;
+}
+.grey {
+    background-color: rgb(160, 158, 158);
+    grid-area: 2/4/3/7;
+}
+.yellow {
+    background-color: rgb(247, 190, 34);
+    grid-area: 3/2/4/3;
+}
+.darkgreen {
+    background-color: rgba(0, 128, 53, 0.705);
+    grid-area: 3/3/4/5;
+}
+.darkred {
+    background-color: rgb(131, 16, 16);
+    grid-area: 3/5/4/7;
+}
+.black {
+    background-color: black;
+    grid-area: 4/1/5/7;
+}
